@@ -9,7 +9,7 @@ ModPE.setItem(402, "skull_zombie", 2, "Iron Crook");
 
 ModPE.setItem(403, "skull_wither", 3, "Gold Crook");
 
-ModPe.setItem(404, "skull_steve", 4, "Diamond Crook);
+ModPe.setItem(404, "skull_steve", 4, "Diamond Crook");
 
 Item.addShapedRecipe(400, 1, 0, [
 "ss "
