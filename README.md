@@ -16,7 +16,9 @@ Gravel Ores:
 Sky-Legends-PE-Develpment-0.0.2
 ===============================
 
-Planned: Unknown
+Planned:
+
+Hammer: Will set the gravel that is broken to gravel ores which can be smelted into ingots i Have YEt not made the texture :(
 
 
 
