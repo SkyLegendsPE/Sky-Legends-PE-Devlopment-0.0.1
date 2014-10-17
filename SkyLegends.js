@@ -23,7 +23,7 @@ Item.addShapedRecipe(401, 1, 0, [
 "  s"
 ],
 
-["t", 4, 0];
+["t", 4, 0, "s", 280, 0];
 
 Item.addShapedRecipe(403, 1, 0, [
 "is "
@@ -31,4 +31,23 @@ Item.addShapedRecipe(403, 1, 0, [
 "  s"
 ]
 
-["i", 265, 0];
+["i", 265, 0, "s", 280, 0];
+
+Item.addShapedRecipe(404, 1, 0, [
+"gs "
+" s "
+"  s"
+],
+
+["g", 266, 0, "s", 280, 0];
+
+Item.addShapedRecipe(405, 1, 0, [
+"ds "
+" s "
+"  s"
+],
+
+["d", 264, 0, "s" 280, 0];
+
+
+
