@@ -1,3 +1,5 @@
+var leaves = 18;
+
 
 ModPE.setItem(400, "skull_creeper", 0, "Wood Crook");
 
@@ -49,5 +51,60 @@ Item.addShapedRecipe(405, 1, 0, [
 
 ["d", 264, 0, "s" 280, 0];
 
+function useItem(x,y,z,itemId,blockId,side){
 
+if(Player.getCarriedItem() == 400);
 
+  Player.addItemInventory( 6, 1,0);
+
+}
+function useItem(x,y,z,itemId,blockId,side){
+
+if(Player.getCarriedItem() == 401);
+
+  Player.addItemInventory( 6, 2,0);
+
+}
+function useItem(x,y,z,itemId,blockId,side){
+
+if(Player.getCarriedItem() == 402);
+
+  Player.addItemInventory( 6, 3,0);
+
+}
+function useItem(x,y,z,itemId,blockId,side){
+
+if(Player.getCarriedItem() == 403);
+
+  Player.addItemInventory( 6, 2,0);
+
+}
+function useItem(x,y,z,itemId,blockId,side){
+
+if(Player.getCarriedItem() == 404);
+
+  Player.addItemInventory( 6, 5,0);
+
+}
+
+ModPE.setItem(405, "record_11", 0, "Wood Hammer");
+
+ModPE.setItem(406, "record_13", 0, "Stone Hammer");
+
+ModPE.setItem(407, "record_cat", 0, "Stone Hammer");
+
+ModPE.setItem(408, "record_chirp", 0, "Stone Hammer");
+
+ModPE.setItem(409, "record_far", 0, "Stone Hammer");
+
+function useItem(x, y, z, itemid, 13, side)
+
+if(Player.getCarriedItem() == 405);{
+
+Level.setTile(x, y, z, 410);
+  
+  
+  }
+  
+Block.defineBlock(410,"Iron Gravel","iron_ore",0,false,0)
+Block.setDestroyTime(410, 3.5);
