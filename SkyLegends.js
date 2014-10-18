@@ -136,7 +136,7 @@ if(Player.getCarriedItem() == 409);
 	
 }
 
-ModPE.setItem(414, slimeball, 0, "Clay Bucket");
+ModPE.setItem(414, "flower_pot", 0, "Clay Bucket");
 
 Item.addShapedCraftRecipe(414, 1, 0, [
 "c c"
