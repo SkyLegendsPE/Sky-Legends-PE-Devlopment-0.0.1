@@ -14,35 +14,35 @@ Item.addShapedRecipe(400, 1, 0, [
 " s "
 " s"
 ],
-["s", 280, 0];
+["s", 280, 0]);
 
 Item.addShapedRecipe(401, 1, 0, [
 "ts "
 " s "
 " s"
 ],
-["t", 4, 0, "s", 280, 0];
+["t", 4, 0, "s", 280, 0]);
 
 Item.addShapedRecipe(403, 1, 0, [
 "is "
 " s "
 " s"
 ]
-["i", 265, 0, "s", 280, 0];
+["i", 265, 0, "s", 280, 0]);
 
 Item.addShapedRecipe(404, 1, 0, [
 "gs "
 " s "
 " s"
 ],
-["g", 266, 0, "s", 280, 0];
+["g", 266, 0, "s", 280, 0]);
 
 Item.addShapedRecipe(405, 1, 0, [
 "ds "
 " s "
 " s"
 ],
-["d", 264, 0, "s" 280, 0];
+["d", 264, 0, "s" 280, 0]);
 
 function useItem(x,y,z,itemId,blockId,side){
 if(Player.getCarriedItem() == 400);
@@ -135,6 +135,19 @@ if(Player.getCarriedItem() == 409);
 	Level.setTile(x, y, z, 412);
 	
 }
+
+ModPE.setItem(414, slimeball, 0, "Clay Bucket");
+
+Item.addShapedCraftRecipe(414, 1, 0, [
+"c c"
+" c "
+"   "],
+["c", 337, 0]);
+
+Item.addFurnacerecipe(414, 0, 325);
+
+
+
 
 
 
